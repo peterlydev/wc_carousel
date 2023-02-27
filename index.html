@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src= "script.js" defer></script>
     <title>World Cup Footballs Carousel</title>
 </head>
 <body>
     <div class="container">
-        <div class="slide_active">
+        <div class="slide active">
             <img src="images/WC1978.jpg" alt="1978 Ball">
         </div>
-        <div class="slide_next">
+        <div class="slide next">
             <img src="images/WC1982.jpg" alt="1982 Ball">
         </div>
         <div class="slide">
@@ -43,11 +44,13 @@
         <div class="slide">
             <img src="images/WC2018.jpg" alt="2018 Ball">
         </div>
-        <div class="slide_prev">
+        <div class="slide prev">
             <img src="images/WC2022.jpg" alt="2022 Ball">
         </div>
-    
+        <div class="button-container">
+            <div class="button"><i class="fas fa-angle-left"></i></div>
+            <div class="button"><i class="fas fa-angle-right"></i></div>
+        </div>
     </div>
-    
 </body>
 </html>
